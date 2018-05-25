@@ -1,0 +1,40 @@
+body{
+		background: gray;
+		margin: 0;
+	}
+h1{
+	margin: 0;
+  }	
+header{
+		background: white;
+		padding: 10px;
+	  }
+div{
+		box-sizing: border-box;
+   }	  
+.contenedor{
+				width: 700px;
+				margin: auto;
+}
+.publicacion{
+				background: white;
+				margin-top: 10px;
+			}
+div.publicacion .enc-pub-0 div:first-child{
+											display: inline-block;
+											width:80%;
+		   }
+div.publicacion .enc-pub-0 div:last-child{
+											display: inline-block;
+											width:20%;
+											text-align: right;
+											padding: 10px;
+											color: gray;
+		   }		   
+.publicacion img{
+					width: 100%;
+				}
+.publicacion h2, .publicacion p{
+									padding: 10px;
+									margin: 0;
+								}				
